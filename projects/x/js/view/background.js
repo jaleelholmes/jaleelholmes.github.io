@@ -74,5 +74,6 @@
         
         render();
         return background;
+            
     };
 }(window));

@@ -8,8 +8,12 @@
         // some useful constants 
         var groundY = game.groundY;
         
-         // groundY = 350;
-         var sawbladeY = 350;
+        
+            
+            
+        };
+        
+        
 
         // this data will allow us to define all of the
         // behavior of our game
@@ -26,18 +30,20 @@
                 y:groundY},
                 {type: 'sawblade',
                 x:800,
-                y:groundY-100} ,
+                y:groundY} ,
                 
                {type: 'sawblade',
                 x:500,
-                y:groundY}
+                y:groundY},
+                
                 
               
+            
                 
             ]
+            
+            
         };
-        
-          
 
         // set this to true or false depending on if you want to see hitzones
         game.setDebugMode(false);
